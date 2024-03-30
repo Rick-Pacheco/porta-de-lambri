@@ -117,5 +117,13 @@ input::-webkit-inner-spin-button {
         background-color: rgb(58, 197, 40);
         
     }
+
+    h1{
+        font-size: 20px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
 }
