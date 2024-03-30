@@ -21,7 +21,7 @@ function fncTratamento() {
     if ((iptAltura.value === "" || iptLargura.value === "")) {
         alert('Favor digitar valor de Altura/Largura para continuar!')
     } else {
-        fncResult()
+       fncResult()
     }
 }
 
@@ -44,7 +44,7 @@ function fncResult() {
 
     // //tratando o select para efetuar as adições de valores
     let selecionaQtd = 0
-    if (selSelect.value == "one") {
+    if (selSelect.value === "one") {
         qtdPecas = Math.floor(qtdPecas) * 1
         selecionaQtd = 1
     } else if (selSelect.value === "two") {
@@ -69,7 +69,7 @@ function fncResult() {
     // saber a quantidade de lambris serão gastos
     let contador = 0;
     let voidAuxiliar = voidPecasPorLambri
-    while (voidPecasPorLambri < qtdTotalPecas) { //quantidade de peças do lambri < quantidade de peças total esperada.
+    while (voidPecasPorLambri <= qtdTotalPecas) { //quantidade de peças do lambri < quantidade de peças total esperada.
         voidPecasPorLambri += voidAuxiliar //dobra quantidade de peças de um lambri
         contador++ //adiciona 1 ao contador
         if (voidPecasPorLambri > qtdTotalPecas) { //quantidade de peças do lambri > quantidade de peças total esperada
@@ -107,7 +107,7 @@ function fncResult() {
     iptLambri.value = Math.floor(pecasPorLambri)
     iptSobra.value = sobraDescarteLambri.toFixed(1)
     iptGastoInitLambri.value = contador
-    iptParcialLambriCm.value = sobraLastLambriCm.toFixed(1) //medida
+    iptParcialLambriCm.value = sobraLastLambriCm.toFixed(1) // medida em cm
     iptParcialLambriQtd.value = pecasFinalParcialLambri //qtd
     iptGastoFinalLambri.value = contTot
 
