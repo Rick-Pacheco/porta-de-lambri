@@ -10,8 +10,8 @@
 //
 
 // -----------------------------------------------
-const btnReturn = document.getElementById('result')
-const btnClear = document.getElementById('clear')
+const btnReturn = document.getElementById('btn-result')
+const btnClear = document.getElementById('btn-clear')
 
 //tratamento de erro nos dados de entrada de valores
 function fncTratamento() {
@@ -125,39 +125,6 @@ function fncClear() {
     const iptPerfilado = document.getElementById('perfilado')
     const iptTotPecas = document.getElementById('totPecas')
     const iptLambri = document.getElementById('lambri')
-    const iptSobra = document.getElementById('sobra')
-    const iptGasto = document.getElementById('gasto')
-    const iptlambri2 = document.getElementById('lambri2')
-    const iptQtdPecas2 = document.getElementById('qtdPecas2')
-    const iptGasto2 = document.getElementById('gasto2')
-
-    iptAltura.value = ""
-    iptLargura.value = ""
-    selSelect.value = "one"
-    //----------------------
-    iptQtdPecas.value = ""
-    iptQtdPerfilado.value = ""
-    iptPerfilado.value = ""
-    iptTotPecas.value = ""
-    iptLambri.value = ""
-    iptSobra.value = ""
-    iptGasto.value = ""
-    iptlambri2.value = ""
-    iptQtdPecas2.value = ""
-    iptGasto2.value = ""
-
-}
-
-//ao acionar botão "Limpar" - para limpar todos os campos, para nova consulta
-function fncClear() {
-    const iptAltura = document.getElementById('altura')
-    const iptLargura = document.getElementById('largura')
-    let selSelect = document.getElementById('select')
-    //---------------------------------------------------
-    const iptQtdPecas = document.getElementById('qtdPecas')
-    const iptPerfilado = document.getElementById('perfilado')
-    const iptTotPecas = document.getElementById('totPecas')
-    const iptLambri = document.getElementById('lambri')
     const iptSobra = document.getElementById('sobra-descarte')
     const iptGastoInitLambri = document.getElementById('gasto-inicial-lambri')
     const iptParcialLambriCm = document.getElementById('parcial-lambri-cm')
@@ -167,7 +134,9 @@ function fncClear() {
     iptAltura.value = ""
     iptLargura.value = ""
     selSelect.value = "one"
+    //----------------------
     iptQtdPecas.value = ""
+    iptQtdPerfilado.value = ""
     iptPerfilado.value = ""
     iptTotPecas.value = ""
     iptLambri.value = ""
