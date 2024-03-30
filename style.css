@@ -60,21 +60,21 @@ input::-webkit-inner-spin-button {
     margin-right: 10px;
 }
 
-#result, #clear {
+#btn-result, #btn-clear {
     font-size: 12px;
-    height: 40px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     margin: 0px 10px 0px 50px;
     padding: auto;
     cursor: pointer;
-    border-radius: 25px;
-    background-color: #17776f;
+    border-radius: 33px;
+    /*background-color: #17776f;*/
     color: white;
     border: none;
     
 }
 
-#result:hover, #clear:hover{
+#btn-result:hover, #btn-clear:hover {
     opacity: .8;
     border: 2px solid #0c0c0efd;
     transition: ease-out 2s;
