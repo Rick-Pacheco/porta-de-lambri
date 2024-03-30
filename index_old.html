@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Vão do 201 para Lambris</h1>
+        <div class="dados">
+
+            <label>
+                Altura: <br>
+                <input type="number" id="altura" placeholder="Altura">
+            </label> <br>
+            <label>
+                Largura: <br>
+                <input type="number" id="largura" placeholder="Largura">
+            </label>
+            
+            <button id="result">Gerar</button>
+            <button id="clear">Limpar</button>
+        </div>
+
+        <div class="semiContainer">
+
+            <div class="retorno-pecas">
+                <label name="pecas">
+                    Peças:
+                    <input id="qtdPecas" readonly>
+                </label>
+
+                <label>
+                    + perfilado
+                    <input id="perfilado" readonly>
+                </label>
+
+                <label> cm =
+                    <input id="totPecas" readonly> peças.
+                </label>
+            </div>
+            <br>
+            <br>
+
+            <div class="retorno-lambri">
+                <br>
+                <label nome="lambri"> 1 Lambri =
+                    <input id="lambri" readonly>
+                </label>
+
+                <label>
+                    peças e sobram: 
+                    <input id="sobra-descarte" readonly> cm.
+                </label>
+            </div>
+            <br>
+            <br>
+
+            <div class="retorno-gasto">
+                <label name="gasto">Gasto:
+                    <input id="gasto-inicial-lambri" readonly>
+                </label>
+                <label> lambris +
+                    <input id="parcial-lambri-cm" readonly>
+                </label>
+                <label> cm (
+                    <input id="parcial-lambri-qtd" readonly> peças ).
+                </label>
+
+            </div>
+            <br>
+            <br>
+
+            <div class="retorno-gasto-final">
+                <label name="gasto2"> GASTO FINAL:
+                    <input id="gasto-final-lambri" readonly> lambris.
+                </label>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
