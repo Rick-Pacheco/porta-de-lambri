@@ -27,7 +27,7 @@ input::-webkit-inner-spin-button {
 }
 .semiContainer {
     border: 1px solid #fff;
-    width: 57%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     background-color: #759254;
@@ -41,7 +41,7 @@ input::-webkit-inner-spin-button {
     justify-content: center;
     border: 1px solid #fff;
     height: 80%;
-    width: 57%;
+    width: 100%;
     background-color: rgb(58, 197, 40);
     
 }
