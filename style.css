@@ -17,6 +17,8 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
+
+
 .container {
     width: 100%;
     margin-top: 13%;
@@ -63,7 +65,7 @@ input::-webkit-inner-spin-button {
 }
 
 #btn-result, #btn-clear {
-    font-size: 12px;
+    /*font-size: 12px;*/
     height: 60px;
     width: 60px;
     margin: 0px 10px 0px 20px;
@@ -71,7 +73,7 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
     border-radius: 33px;
     /*background-color: #17776f;*/
-    color: white;
+    /*color: white;*/
     border: none;
     
 }
@@ -87,7 +89,7 @@ input::-webkit-inner-spin-button {
     justify-content: flex-end;
     margin-top: 60px;
     margin-right: 15px;
-    color:darkgrey
+    color: white
 }
 
 .marca-registrada{
@@ -111,7 +113,7 @@ input::-webkit-inner-spin-button {
         margin: 0px 10px 0px 10px;
         padding: auto;
         cursor: pointer;
-        border-radius: 25px;
+        border-radius: 33px;
         background-color: #17776f;
         color: white;
         border: none;
